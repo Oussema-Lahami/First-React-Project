@@ -4,12 +4,15 @@ body {
 
 .navbar img {
   width: 60px;
+  margin-top: 10px;
 }
 
 .navbar h4 {
   margin-right: 20px;
   padding: 20px;
   color: aliceblue;
+  font-family: Inter , sans-serif;
+  font-weight: 700;
 }
 
 
@@ -18,13 +21,17 @@ body {
   display: flex;
  justify-content: space-between;
 }
+
 .navbar .rightSide h3 {
   color: #61dafb;
+  font-family: Inter , sans-serif;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 
 .navbar {
-  font-family: Inter;
+  font-family: Inter , sans-serif;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -36,7 +43,7 @@ body {
   margin-top: 100px;
   margin-left: 50px;
   color: aliceblue;
-  font-family: Inter;
+  font-family: Inter , sans-serif;
 
 }
 
