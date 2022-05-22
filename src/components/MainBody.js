@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css'
+import logo from '../logo.svg';
 
 function MainBody() {
     return (
@@ -12,6 +13,7 @@ function MainBody() {
                 <li>is maintained by Facebook</li>
                 <li>Powers thousands of entreprise apps, including mobile apps</li>
             </ul>
+            <img src={logo} alt="Logo" />
         </div>
     )
 }
