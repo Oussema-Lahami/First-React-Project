@@ -1,12 +1,14 @@
 import React from 'react';
-
+import logo from '../logo.svg';
 function Navbar() {
     return (
-        <>
-        <h1>
-                Navbar goes here
-        </h1>
-        </>
+        <div className='navbar'>
+            <div className='rightSide'>
+                <img src={logo} alt="Logo" />
+                <h3>ReactFacts</h3>
+            </div>
+            <h4>React Course - Project1</h4>
+        </div>
     )
 }
 
